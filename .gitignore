@@ -1,0 +1,12 @@
+.backup
+.cloud
+.cordova
+.exports
+.fp
+.imports
+.intellisense
+.nativebindings
+.plugins
+.userlibs
+.webapps
+/bundles

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0a2cf4c602f4600a1820be323aae88d",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flxSectionHeaderTemplate"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "mssurf",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "SampleSectionHeaderTemplate",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isSampleTemplate": true,
+    "isvisible": true,
+    "kuid": "ic4bd0ccd987428695c4cc0572921dc7",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "windows8",
+    "prevDevice": "mssurf",
+    "prevPlatform": "spawindowstablet",
+    "retainscrollposition": false,
+    "shellCSS": "win8_mssurf",
+    "titleBarSkin": "s1e83989032d483380543c4a1dc594f6",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}
