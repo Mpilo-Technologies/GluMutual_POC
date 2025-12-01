@@ -256,6 +256,8 @@
     "camerasettings": "",
     "category": "app",
     "chat": "false",
+    "cloud_account_guid": "9e500344-e87b-47e0-a2e1-e573d34de80f",
+    "cloud_env_GUID": "62185319-c9a6-43e7-a2e8-695a8afa23f9",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -266,7 +268,7 @@
     "defaultZIndex": "1",
     "defaultlocalekey": "",
     "defaulttheme": "defaultTheme",
-    "desktopstartupformkey": "dadaf0168fbe461c8bda322ff927e902",
+    "desktopstartupformkey": "h8613c30c8bf40acbef53e62da7d6984",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
     "desktopwebfavico": "",
@@ -701,9 +703,11 @@
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",

@@ -1,7 +1,13 @@
 {
     "dependencies": [
         {
-            "name": "ResourcesMA",
+            "name": "CommonMA",
+            "useResources": true,
+            "isHidden": false,
+            "excludeFromBuild": false
+        },
+        {
+            "name": "HomePageMA",
             "useResources": true,
             "isHidden": false,
             "excludeFromBuild": false
@@ -13,13 +19,7 @@
             "excludeFromBuild": false
         },
         {
-            "name": "CommonMA",
-            "useResources": true,
-            "isHidden": false,
-            "excludeFromBuild": false
-        },
-        {
-            "name": "HomePageMA",
+            "name": "ResourcesMA",
             "useResources": true,
             "isHidden": false,
             "excludeFromBuild": false
