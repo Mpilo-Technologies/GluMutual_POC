@@ -256,6 +256,8 @@
     "camerasettings": "",
     "category": "app",
     "chat": "false",
+    "cloud_account_guid": "9e500344-e87b-47e0-a2e1-e573d34de80f",
+    "cloud_env_GUID": "62185319-c9a6-43e7-a2e8-695a8afa23f9",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -322,6 +324,11 @@
     "hybridaddrkey": "",
     "hybridhttpsportkey": "",
     "hybridportkey": "",
+    "ide_appEvents": {
+        "desktop": {
+            "preappinit": "AS_AppEvents_a3d3c5ee8734481eae334a15e09321c8"
+        }
+    },
     "imagewhendownloading": "",
     "initialRotationPreferenceKey": "landscape",
     "inputaccessoryviewtype": "nextprevtoolbar",
