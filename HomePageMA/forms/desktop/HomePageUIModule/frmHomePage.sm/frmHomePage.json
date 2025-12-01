@@ -44,7 +44,9 @@
     },
     "canUpdateUI": true,
     "canvasWidth": 1200,
-    "children": [],
+    "children": [
+        "flxMain"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
