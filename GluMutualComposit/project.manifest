@@ -17,6 +17,12 @@
             "useResources": true,
             "isHidden": false,
             "excludeFromBuild": false
+        },
+        {
+            "name": "HomePageMA",
+            "useResources": true,
+            "isHidden": false,
+            "excludeFromBuild": false
         }
     ]
 }
