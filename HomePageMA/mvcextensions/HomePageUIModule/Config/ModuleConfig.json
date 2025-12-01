@@ -1,0 +1,21 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "HomePageUIModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmDashboard": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "HomePageUIModule/frmDashboardController",
+                "FormName": "HomePageUIModule/frmDashboard",
+                "friendlyName": "frmDashboard"
+            }
+        }
+    },
+    "ModuleType": "UIModule",
+    "ModuleName": "HomePageUIModule"
+}

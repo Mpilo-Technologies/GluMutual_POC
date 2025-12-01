@@ -51,7 +51,7 @@
     "controllerInfo": {
         "default": {
             "channel": "desktop",
-            "name": "Form1Controller"
+            "name": "frmDashboardController"
         }
     },
     "currentLocale": "default",
@@ -61,8 +61,8 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "friendlyName": "frmHomePage",
-    "id": "frmHomePage",
+    "friendlyName": "frmDashboard",
+    "id": "frmDashboard",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -85,7 +85,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "h8613c30c8bf40acbef53e62da7d6984",
+    "kuid": "ed6a2aae81684ea3a58f39a9be641273",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
