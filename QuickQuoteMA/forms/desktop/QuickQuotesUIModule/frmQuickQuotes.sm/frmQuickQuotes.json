@@ -43,20 +43,26 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "canvasWidth": 1200,
+    "children": [
+        "flxMain"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "desktop",
-            "name": "Form1Controller"
+            "name": "frmQuickQuotesController"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form1",
+    "friendlyName": "frmQuickQuotes",
+    "id": "frmQuickQuotes",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -79,11 +85,14 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "ad24997587be447b80b0b2da35c04a79",
+    "kuid": "c72b6e475338477da61eb212e1e1dc56",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "desktopweb",
+    "prevDevice": "desktopweb",
+    "prevPlatform": "desktopweb",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

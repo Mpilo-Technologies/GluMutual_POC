@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_fd4403acf04e4331862fedb84780febc": {
+        "id": "AS_AppEvents_fd4403acf04e4331862fedb84780febc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "Pre Appinit",
+        "actions": [{
+            "id": "ADD_SNIPPET_db2afb5a2fed4d7e9b815cef26b72983",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self = this;\n        kony.print(\"Testing JS Load\");\n        _kony.mvc.initCompositeApp(true);\n        var isIOS13 = (/(iPad|iPhone);.*CPU.*OS 13_\\d/i).test(navigator.userAgent);\n        if (isIOS13) {\n            kony.application.setApplicationBehaviors({\n                disableForceRepaint: true\n            });\n        }\n        kony.application.setApplicationBehaviors({\n            'rtlMirroringInWidgetPropertySetter': true,\n            'fullWidgetHierarchy': true\n        });\n        var moduleName = 'ApplicationManager';\n        require([moduleName, ], function(ApplicationManager) { \n            applicationManager = ApplicationManager.getApplicationManager(); \n            \n            document.body.addEventListener('contextmenu', function(e) {\n                e.preventDefault();\n                alert(kony.i18n.getLocalizedString(\"i18n.general.rightclickdisabled\"));\n            });\n        });",
+            "parentId": null
+        }]
+    }
+}
