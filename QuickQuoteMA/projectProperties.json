@@ -133,7 +133,7 @@
     "deeplinkkey": "None",
     "defaultZIndex": "1",
     "defaultlocalekey": "",
-    "defaulttheme": "defaultTheme",
+    "defaulttheme": "gluMutualTheme",
     "desktopstartupformkey": "ad24997587be447b80b0b2da35c04a79",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
@@ -569,9 +569,11 @@
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",
