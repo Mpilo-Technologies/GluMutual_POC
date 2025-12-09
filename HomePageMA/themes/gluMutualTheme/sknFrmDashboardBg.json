@@ -1,0 +1,14 @@
+{
+  "android": {
+    "font_name": "default"
+  },
+  "androidwearos": {
+    "font_name": "default"
+  },
+  "background_color": "f7f6f3ff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "isDefaultSkin": false,
+  "kuid": "sgluFrmDashboardBg",
+  "wType": "Form"
+}
