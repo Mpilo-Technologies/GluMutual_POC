@@ -51,7 +51,7 @@
     "controllerInfo": {
         "default": {
             "channel": "desktop",
-            "name": "frmQuickQuotesController"
+            "name": "frmProductCoverAmountController"
         }
     },
     "currentLocale": "default",
@@ -61,8 +61,8 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "friendlyName": "frmQuickQuotes",
-    "id": "frmQuickQuotes",
+    "friendlyName": "frmProductCoverAmount",
+    "id": "frmProductCoverAmount",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -85,7 +85,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "c72b6e475338477da61eb212e1e1dc56",
+    "kuid": "ide838c002b5407fbead41d94fea8556",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
@@ -119,9 +119,6 @@
     "titleBarSkin": "s0f14db4e5c948cd8e4fc1e9febcca23",
     "titlebar": true,
     "type": 3,
-    "vizProps": {
-        "globalRespDesignEnabled": false
-    },
     "wType": "Form",
     "windows8": {
         "needAppMenu": false

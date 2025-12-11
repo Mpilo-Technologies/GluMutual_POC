@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "4%"
+        "value": "6%"
     },
     "_margin_": [
         0,
@@ -21,21 +21,21 @@
         0,
         0
     ],
-    "_skin_": "sgluLblProfitAccent",
-    "_text_": "R 2 015 702",
+    "_skin_": "sgluLblBody",
+    "_text_": "Adjust / enter the cover amount to see how it affects your premium.",
     "_top_": {
         "type": "string",
-        "value": "62%"
+        "value": "13.5%"
     },
     "_width_": {
         "type": "string",
-        "value": "60%"
+        "value": "75%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblProfitValue",
+    "id": "lblSubtitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -43,10 +43,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "lblProfitValue",
+    "kuid": "lblCoverAmountSubheading",
     "name": "kony.ui.Label",
-    "parent": "flxPremiums",
-    "pf": "frmQuickQuotes",
+    "parent": "flxContent",
+    "pf": "frmProductCoverAmount",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
