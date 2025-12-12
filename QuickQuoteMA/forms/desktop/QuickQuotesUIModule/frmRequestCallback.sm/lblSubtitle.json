@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sgluLblBody",
+    "_text_": "Leave your details and we'll get back to you shortly.",
+    "_top_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblSubtitle",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "lblRequestCallbackSubtitle",
+    "name": "kony.ui.Label",
+    "parent": "flxContent",
+    "pf": "frmRequestCallback",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}
