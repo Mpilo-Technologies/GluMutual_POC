@@ -1,15 +1,37 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
     "DNDConfig": null,
-    "_height_": {"type": "string","value": "45%"},
-    "_left_": {"type": "string","value": "3%"},
-    "_margin_": [0,0,0,0],
-    "_padding_": [3,0,0,0],
+    "_height_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
     "_placeholder_": "First name",
     "_skin_": "sgluTxtInput",
     "_text_": "",
-    "_top_": {"type": "string","value": "40%"},
-    "_width_": {"type": "string","value": "45%"},
+    "_top_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45%"
+    },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
@@ -19,7 +41,9 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "disabledSkins": {"blockedUISkin": "s4265d3422894a7ab34eefc4bd0af188"},
+    "disabledSkins": {
+        "blockedUISkin": "s4265d3422894a7ab34eefc4bd0af188"
+    },
     "focusskin": "sgluTxtInput",
     "id": "txtFirstName",
     "info": null,

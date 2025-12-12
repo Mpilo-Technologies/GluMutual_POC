@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "62%"
+        "value": "52%"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
     "_skin_": "sgluFlxCard",
     "_top_": {
         "type": "string",
-        "value": "22%"
+        "value": "24%"
     },
     "_width_": {
         "type": "string",
@@ -34,22 +34,21 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxRow1",
-        "flxRow2",
-        "flxRow3",
-        "flxRow4"
+        "lblCardTitle",
+        "lblMessage",
+        "btnPrimary"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "id": "flxFormCard",
+    "id": "flxCard",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "flxRequestCallbackCard",
+    "kuid": "flxQuoteConfirmationCard",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxContent",
-    "pf": "frmRequestCallback",
+    "pf": "frmQuoteConfirmation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

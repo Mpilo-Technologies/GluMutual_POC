@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "52%"
+        "value": "6%"
     },
     "_margin_": [
         0,
@@ -21,21 +21,21 @@
         0,
         0
     ],
-    "_skin_": "sgluLblDescription",
-    "_text_": "Contact number",
+    "_skin_": "sgluLblBody",
+    "_text_": "Congratulations for being one step closer to protecting your future with glu. One of our glurus will be in touch to guide you through the next steps.",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "30%"
     },
     "_width_": {
         "type": "string",
-        "value": "45%"
+        "value": "88%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblPhone",
+    "contentalignment": 1,
+    "id": "lblMessage",
     "info": null,
     "ipad": {
         "psp": {
@@ -43,10 +43,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "lblRequestCallbackPhone",
+    "kuid": "lblQuoteConfirmationMessage",
     "name": "kony.ui.Label",
-    "parent": "flxRow1",
-    "pf": "frmRequestCallback",
+    "parent": "flxCard",
+    "pf": "frmQuoteConfirmation",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

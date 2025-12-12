@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "3%"
+        "value": "6%"
     },
     "_margin_": [
         0,
@@ -21,21 +21,21 @@
         0,
         0
     ],
-    "_skin_": "sgluLblDescription",
-    "_text_": "Full name",
+    "_skin_": "sgluLblBody",
+    "_text_": "You're all set. We'll connect you with a gluru for the next steps.",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "13%"
     },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "88%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblFullName",
+    "id": "lblSubtitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -43,10 +43,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "lblRequestCallbackFullName",
+    "kuid": "lblQuoteConfirmationSubtitle",
     "name": "kony.ui.Label",
-    "parent": "flxRow1",
-    "pf": "frmRequestCallback",
+    "parent": "flxContent",
+    "pf": "frmQuoteConfirmation",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
