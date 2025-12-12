@@ -1,0 +1,80 @@
+{
+  "android": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "androidwearos": {
+    "font_name": "Times New Roman"
+  },
+  "background_color": "009e73ff",
+  "bg_type": "one",
+  "border_color": "009e73ff",
+  "border_radius": 24,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 1,
+  "desktopweb": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "font_color": "ffffffff",
+  "font_name": "Times New Roman",
+  "font_size": 120,
+  "font_style": "normal",
+  "font_weight": "500",
+  "ipad": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "iphone": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "kuid": "sgluBtnToggle",
+  "spaan": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "spaandroidtablet": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "spaip": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "spaipad": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "spawindowstablet": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "spawinphone8": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "tabrcandroid": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "wType": "Button",
+  "watchos": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "windows8": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  },
+  "winphone8": {
+    "font_name": "Times New Roman",
+    "font_size": 120
+  }
+}
