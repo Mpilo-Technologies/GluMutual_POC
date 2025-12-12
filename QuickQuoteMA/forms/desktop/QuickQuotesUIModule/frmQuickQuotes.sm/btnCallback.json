@@ -3,17 +3,17 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "60%"
     },
     "_left_": {
         "type": "string",
-        "value": "563dp"
+        "value": "67%"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -21,41 +21,27 @@
         0,
         0
     ],
-    "_skin_": "s6c150f790fb492a8c150e366b830f7a",
-    "_text_": "Hello, World",
+    "_skin_": "sgluBtnPrimary",
+    "_text_": "Request a callback",
     "_top_": {
         "type": "string",
-        "value": "355dp"
+        "value": "25%"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "28%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 5,
-    "disabledSkins": {
-        "blockedUISkin": "sad650e3b554410cb830f137fe29d4c9",
-        "hoverSkin": "sacac96815eb4ea785aca546c79e8734",
-        "pressedSkin": "se7a1b37f11b4bf5828530c358dac47d"
-    },
     "displaytext": true,
-    "focusskin": "sb31948844564464969bc83e99ec253d",
-    "id": "btnDone",
+    "id": "btnCallback",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ae172ffe862546a0bf044a3d39283f35",
+    "kuid": "btnRequestCallback",
     "name": "kony.ui.Button",
-    "parent": "flxMain",
+    "parent": "flxActions",
     "pf": "frmQuickQuotes",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -23,7 +23,7 @@ define([], function () {
     var navManager = applicationManager.getNavigationManager();
     navManager.navigateTo({
       "appName": "QuickQuoteMA",
-      "friendlyName": "QuickQuotesUIModule/frmQuickQuotes"
+      "friendlyName": "QuickQuotesUIModule/frmCoverAmount"
     });
     if (context) {
       navManager.updateForm(context);
