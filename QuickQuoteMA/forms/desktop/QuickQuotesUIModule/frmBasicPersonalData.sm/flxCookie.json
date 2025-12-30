@@ -43,7 +43,7 @@
     "id": "flxCookie",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "flxBasicPersonalCookie",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
