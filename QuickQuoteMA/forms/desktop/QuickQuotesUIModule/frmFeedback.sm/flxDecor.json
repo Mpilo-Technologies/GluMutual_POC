@@ -14,7 +14,6 @@
         0,
         0
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -22,7 +21,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sgluFlxBackground",
+    "_skin_": "slFbox",
     "_top_": {
         "type": "string",
         "value": "0"
@@ -35,30 +34,29 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxDecor",
-        "flxContent"
+        "flxCircleYellow",
+        "flxCircleRed",
+        "flxCircleBlue",
+        "flxCircleMint",
+        "flxCircleGreen"
     ],
     "clipbounds": false,
     "containerweight": 100,
-    "disabledSkins": {
-        "blockedUISkin": "se10403881e545c88517e38d1704fe6e"
-    },
-    "enablescrolling": true,
-    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
-    "id": "flxMain",
+    "id": "flxDecor",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b167afab13834f568a0f9ab255e383d0",
+    "kuid": "flxDecorfrmFeedback.sm",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmQuoteConfirmation",
-    "pf": "frmQuoteConfirmation",
+    "parent": "flxMain",
+    "pf": "frmFeedback",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 0
 }
