@@ -1,13 +1,12 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "60%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
-        "value": "72%"
+        "value": "0%"
     },
     "_margin_": [
         0,
@@ -21,31 +20,40 @@
         0,
         0
     ],
-    "_skin_": "sgluBtnPrimary",
-    "_text_": "Continue",
+    "_percent_": true,
+    "_skin_": "slFbox",
     "_top_": {
         "type": "string",
-        "value": "20%"
+        "value": "82%"
     },
     "_width_": {
         "type": "string",
-        "value": "10%"
+        "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "btnBack",
+        "btnContinue"
+    ],
+    "clipbounds": false,
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "id": "btnContinue",
-    "ide_onClick": "AS_Button_e7d7b9eb0c8e4ed69d7e86546a2d228f",
+    "id": "flxActions",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "sgluBtnContinue",
-    "name": "kony.ui.Button",
-    "parent": "flxActions",
+    "kuid": "flxDashboardActions",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxContent",
     "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
-    "zindex": 2
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }

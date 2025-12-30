@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "110dp"
     },
     "_left_": {
         "type": "string",
-        "value": "60.00%"
+        "value": "8%"
     },
     "_margin_": [
         0,
@@ -23,11 +23,11 @@
     "_skin_": "sknCircleAccentGreen",
     "_top_": {
         "type": "string",
-        "value": "1.11%"
+        "value": "74%"
     },
     "_width_": {
         "type": "string",
-        "value": "120dp"
+        "value": "110dp"
     },
     "canUpdateUI": true,
     "children": [],
@@ -36,11 +36,11 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "flxBasicPersonalCircleGreen",
+    "kuid": "flxDashboardCircleGreen",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxDecor",
-    "pf": "frmBasicPersonalData",
+    "pf": "frmDashboard",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "82%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "6%"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -21,36 +21,32 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sgluFlxContent",
+    "_skin_": "slFbox",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "88%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "lblTitle",
-        "lblSubtitle",
-        "flxCards",
-        "lblDisclaimer",
-        "flxActions"
+        "flxCircleYellow",
+        "flxCircleRed",
+        "flxCircleBlue",
+        "flxCircleMint",
+        "flxCircleGreen"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
-    "id": "flxContent",
+    "id": "flxDecor",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "sgluFlxContentWrapper",
+    "kuid": "flxDashboardDecor",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxMain",
@@ -62,5 +58,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 0
 }
