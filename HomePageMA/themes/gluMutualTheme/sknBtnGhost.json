@@ -1,10 +1,13 @@
 {
   "android": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "androidwearos": {
-    "font_name": "Times New Roman"
+    "font_name": "Times New Roman",
+    "font_size": 110,
+    "isForked": false
   },
   "background_color": "ffffffff",
   "bg_type": "one",
@@ -15,66 +18,89 @@
   "border_width": 1,
   "desktopweb": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
+  "fontSizeInPx": false,
   "font_color": "6b6b6bff",
   "font_name": "Times New Roman",
-  "font_size": 140,
+  "font_size": 110,
   "font_style": "normal",
   "font_weight": "500",
   "ipad": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "iphone": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "kuid": "sgluBtnGhost",
+  "nativemac": {
+    "font_size": 110,
+    "isForked": false
+  },
+  "nativewin": {
+    "font_size": 110,
+    "isForked": false
+  },
   "spaan": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "spaandroidtablet": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "spaip": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "spaipad": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "spawindowstablet": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "spawinphone8": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "tabrcandroid": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "wType": "Button",
   "watchos": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "windows8": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   },
   "winphone8": {
     "font_name": "Times New Roman",
-    "font_size": 140
+    "font_size": 110,
+    "isForked": false
   }
 }

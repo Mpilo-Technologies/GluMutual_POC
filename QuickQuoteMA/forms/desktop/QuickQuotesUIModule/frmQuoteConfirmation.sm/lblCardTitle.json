@@ -22,10 +22,10 @@
         0
     ],
     "_skin_": "sgluLblHeading",
-    "_text_": "You're covered!",
+    "_text_": "All done!",
     "_top_": {
         "type": "string",
-        "value": "6%"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",

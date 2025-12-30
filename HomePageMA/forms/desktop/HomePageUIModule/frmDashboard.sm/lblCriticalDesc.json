@@ -25,14 +25,18 @@
     "_text_": "Cover for specified severe illnesses.",
     "_top_": {
         "type": "string",
-        "value": "30%"
+        "value": "50%"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "60%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "id": "lblCriticalDesc",

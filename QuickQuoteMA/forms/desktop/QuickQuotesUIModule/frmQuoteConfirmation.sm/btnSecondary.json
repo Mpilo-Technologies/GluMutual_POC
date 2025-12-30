@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "60%"
+        "value": "12%"
     },
     "_left_": {
         "type": "string",
-        "value": "51%"
+        "value": "24%"
     },
     "_margin_": [
         0,
@@ -22,35 +22,27 @@
         0
     ],
     "_skin_": "sgluBtnGhost",
-    "_text_": "Download quote",
+    "_text_": "Start Over",
     "_top_": {
         "type": "string",
-        "value": "25%"
+        "value": "66%"
     },
     "_width_": {
         "type": "string",
-        "value": "18%"
+        "value": "22%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "id": "btnDownload",
+    "id": "btnSecondary",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "btnDownloadQuote",
+    "kuid": "btnQuoteConfirmationSecondary",
     "name": "kony.ui.Button",
-    "parent": "flxActions",
-    "pf": "frmQuickQuotes",
-    "responsiveData": {
-        "b1": {
-            "left": {
-                "type": "string",
-                "value": "61%"
-            }
-        }
-    },
+    "parent": "flxCard",
+    "pf": "frmQuoteConfirmation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

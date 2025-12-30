@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "51%"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "sgluBtnGhost",
-    "_text_": "Download quote",
+    "_text_": "Back",
     "_top_": {
         "type": "string",
         "value": "25%"
@@ -35,11 +35,11 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "id": "btnDownload",
+    "id": "btnBack",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "btnDownloadQuote",
+    "kuid": "btnQuickQuotesBack",
     "name": "kony.ui.Button",
     "parent": "flxActions",
     "pf": "frmQuickQuotes",
@@ -47,7 +47,11 @@
         "b1": {
             "left": {
                 "type": "string",
-                "value": "61%"
+                "value": "8.70%"
+            },
+            "top": {
+                "type": "string",
+                "value": "24.14%"
             }
         }
     },

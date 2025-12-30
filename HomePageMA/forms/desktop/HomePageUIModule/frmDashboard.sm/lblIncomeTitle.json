@@ -25,14 +25,18 @@
     "_text_": "Income Protection",
     "_top_": {
         "type": "string",
-        "value": "8%"
+        "value": "30%"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "40%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
     "id": "lblIncomeTitle",
