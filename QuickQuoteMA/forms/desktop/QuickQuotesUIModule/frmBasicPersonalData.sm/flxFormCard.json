@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "56%"
+        "value": "66%"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
     "_skin_": "sgluFlxCard",
     "_top_": {
         "type": "string",
-        "value": "24%"
+        "value": "22%"
     },
     "_width_": {
         "type": "string",
@@ -36,7 +36,8 @@
     "children": [
         "flxRow1",
         "flxRow2",
-        "flxRow3"
+        "flxRow3",
+        "flxRow4"
     ],
     "clipbounds": true,
     "containerweight": 100,

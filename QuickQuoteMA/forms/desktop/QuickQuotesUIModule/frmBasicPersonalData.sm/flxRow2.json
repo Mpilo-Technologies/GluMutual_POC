@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "32%"
+        "value": "24%"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
     "_skin_": "slFbox",
     "_top_": {
         "type": "string",
-        "value": "34%"
+        "value": "26%"
     },
     "_width_": {
         "type": "string",

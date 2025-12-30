@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "24%"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0%"
     },
     "_margin_": [
         0,
@@ -14,7 +14,6 @@
         0,
         0
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -22,10 +21,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sgluFlxBackground",
+    "_skin_": "slFbox",
     "_top_": {
         "type": "string",
-        "value": "0"
+        "value": "78%"
     },
     "_width_": {
         "type": "string",
@@ -35,25 +34,21 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxDecor",
-        "flxContent",
-        "flxCookie"
+        "lblIncome",
+        "lstIncome",
+        "lblEducation",
+        "lstEducation"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
     "containerweight": 100,
-    "disabledSkins": {
-        "blockedUISkin": "se10403881e545c88517e38d1704fe6e"
-    },
-    "enablescrolling": true,
-    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
-    "id": "flxMain",
+    "id": "flxRow4",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e76c8984a3b9466ab94cd0170191b9fb",
+    "kuid": "flxBasicPersonalRow4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmBasicPersonalData",
+    "parent": "flxFormCard",
     "pf": "frmBasicPersonalData",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -61,5 +56,6 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }
