@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "200dp"
+        "value": "140dp"
     },
     "_left_": {
         "type": "string",
-        "value": "44%"
+        "value": "4.39%"
     },
     "_margin_": [
         0,
@@ -23,11 +23,11 @@
     "_skin_": "sknCircleAccentBlue",
     "_top_": {
         "type": "string",
-        "value": "86%"
+        "value": "73.33%"
     },
     "_width_": {
         "type": "string",
-        "value": "200dp"
+        "value": "140dp"
     },
     "canUpdateUI": true,
     "children": [],

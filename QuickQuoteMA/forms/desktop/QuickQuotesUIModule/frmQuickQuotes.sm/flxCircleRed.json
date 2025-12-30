@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "180dp"
+        "value": "90dp"
     },
     "_left_": {
         "type": "string",
-        "value": "88%"
+        "value": "6%"
     },
     "_margin_": [
         0,
@@ -23,11 +23,11 @@
     "_skin_": "sknCircleAccentRed",
     "_top_": {
         "type": "string",
-        "value": "38%"
+        "value": "60%"
     },
     "_width_": {
         "type": "string",
-        "value": "180dp"
+        "value": "90dp"
     },
     "canUpdateUI": true,
     "children": [],
@@ -41,6 +41,18 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxDecor",
     "pf": "frmQuickQuotes",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "2.71%"
+            },
+            "top": {
+                "type": "string",
+                "value": "38.04%"
+            }
+        }
+    },
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

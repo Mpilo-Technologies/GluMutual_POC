@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "58%"
+        "value": "42%"
     },
     "_margin_": [
         0,
@@ -23,7 +23,7 @@
     "_skin_": "sknCircleAccentMint",
     "_top_": {
         "type": "string",
-        "value": "6%"
+        "value": "92%"
     },
     "_width_": {
         "type": "string",
@@ -41,6 +41,18 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxDecor",
     "pf": "frmQuickQuotes",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "11.71%"
+            },
+            "top": {
+                "type": "string",
+                "value": "95.56%"
+            }
+        }
+    },
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
