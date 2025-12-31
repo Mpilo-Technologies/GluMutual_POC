@@ -1,5 +1,7 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
         "value": "100%"
@@ -20,8 +22,8 @@
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "slFbox",
+    "_skin_": "s32ba57f00184efeb1c7de053370e1ab",
+    "_src_": "glulogo.png",
     "_top_": {
         "type": "string",
         "value": "0"
@@ -30,34 +32,21 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "flxCircleYellow",
-        "flxCircleRed",
-        "flxCircleBlue",
-        "flxCircleMint",
-        "flxCircleGreen",
-        "flxLogoImage"
-    ],
-    "clipbounds": false,
     "containerweight": 100,
-    "id": "flxDecor",
+    "id": "imgLogo",
+    "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "flxDecorfrmRequestCallback.sm",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
-    "pf": "frmRequestCallback",
+    "kuid": "f35864fe2dfa4863bb3d4319588e0f45",
+    "name": "kony.ui.Image2",
+    "parent": "flxLogoImage",
+    "pf": "frmQuickQuotes",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 0
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
 }

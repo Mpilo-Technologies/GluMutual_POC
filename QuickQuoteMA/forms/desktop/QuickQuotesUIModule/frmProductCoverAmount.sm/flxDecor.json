@@ -38,7 +38,8 @@
         "flxCircleRed",
         "flxCircleGreen",
         "flxCircleYellow",
-        "flxCircleMint"
+        "flxCircleMint",
+        "flxLogoImage"
     ],
     "clipbounds": false,
     "containerweight": 100,
