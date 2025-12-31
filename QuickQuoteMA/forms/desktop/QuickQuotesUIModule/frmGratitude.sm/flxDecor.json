@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "44%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -21,35 +21,36 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sgluFlxCard",
+    "_skin_": "slFbox",
     "_top_": {
         "type": "string",
-        "value": "52%"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "46%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblCriticalTitle",
-        "lblCriticalDesc",
-        "btnCriticalSelect",
-        "imgIllness"
+        "flxCircleYellow",
+        "flxCircleRed",
+        "flxCircleBlue",
+        "flxCircleMint",
+        "flxCircleGreen"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
-    "id": "flxCardCritical",
+    "id": "flxDecor",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "sgluFlxCardCritical",
+    "kuid": "c389b5ca625e4e53968e174cfa861314",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxCards",
-    "pf": "frmDashboard",
+    "parent": "flxMain",
+    "pf": "frmGratitude",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
@@ -57,5 +58,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 0
 }

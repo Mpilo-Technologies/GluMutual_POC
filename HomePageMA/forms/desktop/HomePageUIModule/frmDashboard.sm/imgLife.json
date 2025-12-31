@@ -1,13 +1,14 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "60%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "72%"
+        "value": "60dp"
     },
     "_margin_": [
         0,
@@ -21,31 +22,35 @@
         0,
         0
     ],
-    "_skin_": "sgluBtnPrimary",
-    "_text_": "Continue",
+    "_skin_": "sdc7463ec24444f2a512a52289d07393",
+    "_src_": "lifecover.png",
     "_top_": {
         "type": "string",
-        "value": "20%"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
-        "value": "16.67%"
+        "value": "50dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "id": "btnContinue",
-    "ide_onClick": "AS_Button_e7d7b9eb0c8e4ed69d7e86546a2d228f",
+    "id": "imgLife",
+    "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "sgluBtnContinue",
-    "name": "kony.ui.Button",
-    "parent": "flxActions",
+    "kuid": "d4859cdd6c7f4b4b8ce44eb4e56d0b6e",
+    "name": "kony.ui.Image2",
+    "parent": "flxCardLife",
     "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
-    "zindex": 2
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
 }

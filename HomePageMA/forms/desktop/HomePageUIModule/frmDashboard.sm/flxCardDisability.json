@@ -36,7 +36,8 @@
     "children": [
         "lblDisabilityTitle",
         "lblDisabilityDesc",
-        "btnDisabilitySelect"
+        "btnDisabilitySelect",
+        "imgDisability"
     ],
     "clipbounds": true,
     "containerweight": 100,

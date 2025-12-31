@@ -36,7 +36,8 @@
     "children": [
         "lblIncomeTitle",
         "lblIncomeDesc",
-        "btnIncomeSelect"
+        "btnIncomeSelect",
+        "imgIncome"
     ],
     "clipbounds": true,
     "containerweight": 100,
