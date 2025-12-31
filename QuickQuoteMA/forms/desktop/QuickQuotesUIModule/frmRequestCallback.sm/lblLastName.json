@@ -22,10 +22,10 @@
         0
     ],
     "_skin_": "sgluLblDescription",
-    "_text_": "Lastname",
+    "_text_": "Last name",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "6%"
     },
     "_width_": {
         "type": "string",

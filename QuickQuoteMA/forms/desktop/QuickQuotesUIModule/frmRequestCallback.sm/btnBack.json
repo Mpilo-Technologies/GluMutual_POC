@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "54.44%"
+        "value": "36%"
     },
     "_margin_": [
         0,
@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "18%"
+        "value": "20%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

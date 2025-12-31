@@ -21,12 +21,12 @@
         0,
         0
     ],
-    "_placeholder_": "you@example.com",
+    "_placeholder_": "Email address",
     "_skin_": "sgluTxtInput",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "36%"
+        "value": "32%"
     },
     "_width_": {
         "type": "string",
