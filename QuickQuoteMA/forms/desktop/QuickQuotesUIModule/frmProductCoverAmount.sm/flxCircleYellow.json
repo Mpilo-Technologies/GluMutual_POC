@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "60%"
+        "value": "180dp"
     },
     "_left_": {
         "type": "string",
-        "value": "5%"
+        "value": "84%"
     },
     "_margin_": [
         0,
@@ -20,41 +20,29 @@
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "slFbox",
+    "_skin_": "sknCircleAccentYellow",
     "_top_": {
         "type": "string",
-        "value": "22%"
+        "value": "64%"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "180dp"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "flxLifeRow",
-        "flxDisabilityRow",
-        "flxIncomeRow"
-    ],
+    "children": [],
     "clipbounds": false,
-    "containerweight": 100,
-    "id": "flxInputs",
+    "id": "flxCircleYellow",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "flxCoverInputs",
+    "kuid": "flxProductCoverCircleYellow",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContent",
+    "parent": "flxDecor",
     "pf": "frmProductCoverAmount",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
-    "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 0
 }

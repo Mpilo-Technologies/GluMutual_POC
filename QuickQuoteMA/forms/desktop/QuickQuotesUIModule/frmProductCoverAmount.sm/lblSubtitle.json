@@ -22,10 +22,10 @@
         0
     ],
     "_skin_": "sgluLblBody",
-    "_text_": "Adjust / enter the cover amount to see how it affects your premium.",
+    "_text_": "Adjust the cover amount to see how it affects your premium.",
     "_top_": {
         "type": "string",
-        "value": "13.5%"
+        "value": "14%"
     },
     "_width_": {
         "type": "string",

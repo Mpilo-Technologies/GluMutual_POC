@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSlider",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_max_": 100,
+    "_min_": 0,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_step_": 1,
+    "_thickness_": 15,
+    "_top_": {
+        "type": "string",
+        "value": "14%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "thumbImage": "slider_android.png"
+    },
+    "androidwearos": {
+        "thumbImage": "slider_android.png"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "orientation": "horizontal",
+            "viewType": "default"
+        }
+    },
+    "id": "sldLifeCover",
+    "imgwt": 13,
+    "info": null,
+    "ipad": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "587387"
+        },
+        "thumbImage": "slider_ios7.png"
+    },
+    "iphone": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "587387"
+        },
+        "thumbImage": "slider_ios7.png"
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f6bc6204da7544ff940bdd1edeb09d71",
+    "leftskin": "sc05490fe60a4fd48665c9aa2f2b6d82",
+    "name": "kony.ui.Slider",
+    "noofsteps": 100,
+    "osPlatform": "desktopweb",
+    "osVersion": "iOS7",
+    "parent": "flxLifeRow",
+    "pf": "frmProductCoverAmount",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "rightskin": "s39de3a1e10e49efb314eb7b8dd0a2cc",
+    "selectedvalue": 40,
+    "stepwidth": 8.15,
+    "tabrcandroid": {
+        "thumbImage": "slider_android.png"
+    },
+    "thumbimage": "slider.png",
+    "wType": "Slider",
+    "widgetalignment": 5
+}
