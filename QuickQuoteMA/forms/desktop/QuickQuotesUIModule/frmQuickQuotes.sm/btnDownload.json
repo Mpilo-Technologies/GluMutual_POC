@@ -45,9 +45,17 @@
     "pf": "frmQuickQuotes",
     "responsiveData": {
         "b1": {
+            "height": {
+                "type": "string",
+                "value": "59.57%"
+            },
             "left": {
                 "type": "string",
-                "value": "61%"
+                "value": "55.43%"
+            },
+            "top": {
+                "type": "string",
+                "value": "25.00%"
             }
         }
     },

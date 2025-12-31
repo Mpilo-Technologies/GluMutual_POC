@@ -47,7 +47,11 @@
         "b1": {
             "left": {
                 "type": "string",
-                "value": "84%"
+                "value": "79.35%"
+            },
+            "top": {
+                "type": "string",
+                "value": "24.57%"
             }
         }
     },
