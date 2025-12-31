@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "42.50%"
+        "value": "37.90%"
     },
     "_margin_": [
         0,
@@ -25,11 +25,11 @@
     "_text_": "Back",
     "_top_": {
         "type": "string",
-        "value": "20.00%"
+        "value": "20.42%"
     },
     "_width_": {
         "type": "string",
-        "value": "28%"
+        "value": "24%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

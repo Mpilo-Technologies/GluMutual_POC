@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "6.5%"
+        "value": "60%"
     },
     "_left_": {
         "type": "string",
-        "value": "73.52%"
+        "value": "72%"
     },
     "_margin_": [
         0,
@@ -25,11 +25,11 @@
     "_text_": "Continue",
     "_top_": {
         "type": "string",
-        "value": "85.50%"
+        "value": "20%"
     },
     "_width_": {
         "type": "string",
-        "value": "15%"
+        "value": "16.67%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -42,7 +42,7 @@
     "isvisible": true,
     "kuid": "sgluBtnContinue",
     "name": "kony.ui.Button",
-    "parent": "flxContent",
+    "parent": "flxActions",
     "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "9%"
+        "value": "6%"
     },
     "_margin_": [
         0,
@@ -24,11 +24,11 @@
     "_skin_": "sgluFlxContent",
     "_top_": {
         "type": "string",
-        "value": "7%"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",
-        "value": "75%"
+        "value": "88%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -41,7 +41,8 @@
         "lblTitle",
         "lblSubtitle",
         "flxCards",
-        "btnContinue"
+        "lblDisclaimer",
+        "flxActions"
     ],
     "clipbounds": true,
     "containerweight": 100,

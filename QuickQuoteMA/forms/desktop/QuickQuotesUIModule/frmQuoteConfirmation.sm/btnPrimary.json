@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "35%"
+        "value": "49.96%"
     },
     "_margin_": [
         0,
@@ -22,14 +22,14 @@
         0
     ],
     "_skin_": "sgluBtnPrimary",
-    "_text_": "Go to policies",
+    "_text_": "Rate your experience",
     "_top_": {
         "type": "string",
-        "value": "74%"
+        "value": "66.20%"
     },
     "_width_": {
         "type": "string",
-        "value": "30%"
+        "value": "29.32%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

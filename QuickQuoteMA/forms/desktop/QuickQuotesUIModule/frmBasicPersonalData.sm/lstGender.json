@@ -53,6 +53,10 @@
         [
             "female",
             "Female"
+        ],
+        [
+            "nottosay",
+            "Prefer not to say"
         ]
     ],
     "name": "kony.ui.ListBox",
@@ -65,6 +69,7 @@
         "select",
         "Select"
     ],
+    "selectedkeyvalues": null,
     "viewtype": 1,
     "wType": "ListBox",
     "zindex": 1

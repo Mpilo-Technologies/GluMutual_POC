@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "70%"
     },
     "_left_": {
         "type": "string",
@@ -24,11 +24,11 @@
     "_skin_": "checkboxGroupNormal",
     "_top_": {
         "type": "string",
-        "value": "28%"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",
-        "value": "70%"
+        "value": "94%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -44,7 +44,7 @@
     "masterdata": [
         [
             "agree",
-            "I agree to glu's Privacy Terms."
+            "I acknowledge that I have read and agree to glu’s Privacy Policy and Terms & Conditions, and I consent to being contacted by an adviser"
         ]
     ],
     "name": "kony.ui.CheckBoxGroup",

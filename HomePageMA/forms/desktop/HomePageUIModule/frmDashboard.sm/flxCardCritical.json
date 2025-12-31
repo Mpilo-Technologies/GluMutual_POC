@@ -36,7 +36,8 @@
     "children": [
         "lblCriticalTitle",
         "lblCriticalDesc",
-        "btnCriticalSelect"
+        "btnCriticalSelect",
+        "imgIllness"
     ],
     "clipbounds": true,
     "containerweight": 100,

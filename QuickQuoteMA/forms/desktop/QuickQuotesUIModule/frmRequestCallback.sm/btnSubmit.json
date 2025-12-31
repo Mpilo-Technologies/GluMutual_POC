@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "76.67%"
+        "value": "73.33%"
     },
     "_margin_": [
         0,
@@ -25,11 +25,11 @@
     "_text_": "Request callback",
     "_top_": {
         "type": "string",
-        "value": "14.57%"
+        "value": "15.77%"
     },
     "_width_": {
         "type": "string",
-        "value": "23.33%"
+        "value": "24%"
     },
     "canUpdateUI": true,
     "containerweight": 100,

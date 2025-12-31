@@ -164,6 +164,8 @@
                 }
             ]
         },
+        "osPlatform": "",
+        "osVersion": "iOS7",
         "skin": null,
         "tablet": {
             "data": [
@@ -216,7 +218,8 @@
                     }
                 }
             ]
-        }
+        },
+        "wType": "Appmenu"
     },
     "appnamekey": "QuickQuoteMA",
     "appointments": "false",

@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "49.96%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sgluBtnPrimary",
+    "_text_": "Visit our website",
+    "_top_": {
+        "type": "string",
+        "value": "66.20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "29.32%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "id": "btnPrimary",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f7f4720b6bac46139a16f878607750fa",
+    "name": "kony.ui.Button",
+    "parent": "flxCard",
+    "pf": "frmGratitude",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

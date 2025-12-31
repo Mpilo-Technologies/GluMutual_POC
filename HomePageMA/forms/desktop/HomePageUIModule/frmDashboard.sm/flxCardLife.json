@@ -36,7 +36,8 @@
     "children": [
         "lblLifeTitle",
         "lblLifeDesc",
-        "btnLifeSelect"
+        "btnLifeSelect",
+        "imgLife"
     ],
     "clipbounds": true,
     "containerweight": 100,

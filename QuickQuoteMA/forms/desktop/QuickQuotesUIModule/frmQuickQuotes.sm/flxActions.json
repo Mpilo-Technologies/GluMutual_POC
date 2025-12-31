@@ -28,7 +28,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -38,6 +38,7 @@
         "value": "50%"
     },
     "children": [
+        "btnBack",
         "btnModify",
         "btnDownload",
         "btnCallback"
