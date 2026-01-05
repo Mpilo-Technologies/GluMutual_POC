@@ -3,5 +3,43 @@ define({
         var showingNo = this.view.flxSmokerNo.isVisible;
         this.view.flxSmokerNo.isVisible = !showingNo;
         this.view.flxSmokerYes.isVisible = showingNo;
-    }
+    },
+
+    postShow: function () {
+        this.view.txtDob.placeholder = "DD/MM/YYYY";
+        this.view.flxSmokerNo.isVisible = true;
+        this.view.flxSmokerYes.isVisible = false;
+        this.view.lstGender.selectedKey = "Select";
+        this.view.lstProvince.selectedKey = "Select";
+        this.view.lstOccupation.selectedKey = "Select";
+        this.view.lstIncome.selectedKey = "Select";
+        this.view.lstEducation.selectedKey = "Select";
+
+        this.view.btnSmokerYes.onClick = this.toggleSmokerSwitch.bind(this);
+        this.view.btnSmokerNo.onClick = this.toggleSmokerSwitch.bind(this);
+
+        this.view.btnNext.onClick = function () {
+            var basicInfo = this.userBasicInfo();
+            var navManager = applicationManager.getNavigationManager();
+            navManager.setCustomInfo("basicInfo", basicInfo);
+            navManager.navigateTo({
+                "appName": "HomePageMA",
+                "friendlyName": "frmDashboard"
+            });
+        }.bind(this);
+    },
+
+    userBasicInfo: function () {
+        var basicInfo = {
+            "dateOfBirth": this.view.txtDob.text,
+            "smokerStatus": this.view.flxSmokerYes.isVisible ? "Yes" : "No",
+            "gender": this.view.lstGender.selectedKey.text,
+            "provience": this.view.lstProvince.selectedKey.text,
+            "occupation": this.view.lstOccupation.selectedKey.text,
+            "icomerange": this.view.lstIncome.selectedKey.text,
+            "levelofeducation": this.view.lstEducation.selectedKey.text
+        };
+        return basicInfo;
+    },
+    
 });
