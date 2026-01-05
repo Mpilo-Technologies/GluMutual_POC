@@ -33,11 +33,11 @@ define({
         var basicInfo = {
             "dateOfBirth": this.view.txtDob.text,
             "smokerStatus": this.view.flxSmokerYes.isVisible ? "Yes" : "No",
-            "gender": this.view.lstGender.selectedKey.text,
-            "provience": this.view.lstProvince.selectedKey.text,
-            "occupation": this.view.lstOccupation.selectedKey.text,
-            "icomerange": this.view.lstIncome.selectedKey.text,
-            "levelofeducation": this.view.lstEducation.selectedKey.text
+            "gender": this.view.lstGender.selectedKey,
+            "provience": this.view.lstProvince.selectedKey,
+            "occupation": this.view.lstOccupation.selectedKey,
+            "icomerange": this.view.lstIncome.selectedKey,
+            "levelofeducation": this.view.lstEducation.selectedKey
         };
         return basicInfo;
     },
