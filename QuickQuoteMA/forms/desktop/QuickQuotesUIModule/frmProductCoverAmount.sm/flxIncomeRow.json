@@ -43,7 +43,7 @@
     "id": "flxIncomeRow",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "flxIncomeRow",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
