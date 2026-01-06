@@ -2,16 +2,78 @@
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
     "_data_": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Life Cover",
+                "type": "Label"
+            },
+            "sldCover": {
+                "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
+                "selectedValue": 40,
+                "type": "Slider"
+            },
+            "txtAmount": {
+                "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                "placeholder": "",
+                "text": "R 1 000 000",
+                "type": "TextField"
+            }
+        },
+        {
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Disability Cover",
+                "type": "Label"
+            },
+            "sldCover": {
+                "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
+                "selectedValue": 5,
+                "type": "Slider"
+            },
+            "txtAmount": {
+                "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                "placeholder": "",
+                "text": "R 1 500",
+                "type": "TextField"
+            }
+        },
+        {
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Income Protection",
+                "type": "Label"
+            },
+            "sldCover": {
+                "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
+                "selectedValue": 80,
+                "type": "Slider"
+            },
+            "txtAmount": {
+                "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                "placeholder": "",
+                "text": "R 11 000 000",
+                "type": "TextField"
+            }
+        },
+        {
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Critical Illness Cover",
+                "type": "Label"
+            },
+            "sldCover": {
+                "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
+                "selectedValue": 20,
+                "type": "Slider"
+            },
+            "txtAmount": {
+                "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                "placeholder": "",
+                "text": "R 500 000",
+                "type": "TextField"
+            }
+        }
     ],
     "_height_": {
         "type": "string",
@@ -46,7 +108,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "09",
+    "counter": "03",
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -79,19 +141,21 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,
-    "rowcounter": 9,
+    "rowTemplateId": "a5f73f74e6c0462aafa39c196c3279bd",
+    "rowcounter": 3,
     "rowfocusskin": "sb123bc68d1040b6b6b88cb68ee7d325",
     "rowskin": "sce8da5120bf41119f6da8bbf8c456a8",
-    "rowtemplate": null,
+    "rowtemplate": "flxCoverMain",
     "screenlevelwidget": false,
     "seccounter": 0,
+    "sectionHeaderTemplateId": null,
     "sectionheaderskin": "s16a4852a2774147af835d51fa368ca2",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,
@@ -101,5 +165,11 @@
     "vizProps": {},
     "wType": "Segment",
     "widgetalignment": 5,
-    "widgetdatamap": {}
+    "widgetdatamap": {
+        "flxCoverMain": "flxCoverMain",
+        "flxRow": "flxRow",
+        "lblTitle": "lblTitle",
+        "sldCover": "sldCover",
+        "txtAmount": "txtAmount"
+    }
 }
