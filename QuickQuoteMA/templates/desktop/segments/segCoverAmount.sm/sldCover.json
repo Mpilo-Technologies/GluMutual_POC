@@ -40,6 +40,7 @@
         "thumbImage": "slider_android.png"
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "desktopweb": {
         "psp": {
@@ -47,7 +48,7 @@
             "viewType": "default"
         }
     },
-    "id": "sldLifeCover",
+    "id": "sldCover",
     "imgwt": 13,
     "info": null,
     "ipad": {
@@ -66,14 +67,20 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f6bc6204da7544ff940bdd1edeb09d71",
+    "kuid": "bc2cf16e7ecd43178a5cf15f938e8ed7",
     "leftskin": "sc05490fe60a4fd48665c9aa2f2b6d82",
     "name": "kony.ui.Slider",
+    "nativemac": {
+        "render": false
+    },
+    "nativewin": {
+        "render": false
+    },
     "noofsteps": 100,
     "osPlatform": "desktopweb",
     "osVersion": "iOS7",
-    "parent": "flxLifeRow",
-    "pf": "frmProductCoverAmount",
+    "parent": "flxRow",
+    "pf": "segCoverAmount",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "rightskin": "s39de3a1e10e49efb314eb7b8dd0a2cc",
@@ -84,5 +91,11 @@
     },
     "thumbimage": "slider.png",
     "wType": "Slider",
-    "widgetalignment": 5
+    "widgetalignment": 5,
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    }
 }
