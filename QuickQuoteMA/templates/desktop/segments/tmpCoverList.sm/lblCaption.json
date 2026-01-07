@@ -21,21 +21,22 @@
         0,
         0
     ],
-    "_skin_": "sgluLblRowHeading",
-    "_text_": "Life Cover",
+    "_skin_": "sgluLblDescription",
+    "_text_": "Cover amount",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "48%"
     },
     "_width_": {
         "type": "string",
-        "value": "65%"
+        "value": "45%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblLifeTitle",
+    "id": "lblCaption",
     "info": null,
     "ipad": {
         "psp": {
@@ -43,15 +44,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "lblLifeTitle",
+    "kuid": "a4f4e6d48187404fa3155dac02942010",
     "name": "kony.ui.Label",
-    "parent": "flxLifeItem",
-    "pf": "frmQuickQuotes",
-    "responsiveData": {
-        "b1": {
-            "isVisible": true
-        }
-    },
+    "parent": "flxItem",
+    "pf": "tmpCoverList",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

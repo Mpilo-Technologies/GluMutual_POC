@@ -49,6 +49,11 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxSummaryCard",
     "pf": "frmQuickQuotes",
+    "responsiveData": {
+        "b1": {
+            "isVisible": false
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

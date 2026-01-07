@@ -54,6 +54,10 @@
             "name": "frmQuickQuotesController"
         }
     },
+    "currentBreakpoint": {
+        "kuid": "b1",
+        "width": 1366
+    },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false

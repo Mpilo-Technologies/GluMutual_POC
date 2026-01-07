@@ -37,7 +37,8 @@
         "lblSummaryTitle",
         "flxLifeItem",
         "flxDisabilityItem",
-        "flxIncomeItem"
+        "flxIncomeItem",
+        "segCoverList"
     ],
     "clipbounds": true,
     "containerweight": 100,
