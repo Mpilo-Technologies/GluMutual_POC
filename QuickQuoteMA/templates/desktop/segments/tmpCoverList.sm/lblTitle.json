@@ -33,9 +33,10 @@
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblLifeTitle",
+    "id": "lblTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -43,15 +44,10 @@
         }
     },
     "isvisible": true,
-    "kuid": "lblLifeTitle",
+    "kuid": "ee3c3379b18844ab8947bd591c6e195f",
     "name": "kony.ui.Label",
-    "parent": "flxLifeItem",
-    "pf": "frmQuickQuotes",
-    "responsiveData": {
-        "b1": {
-            "isVisible": true
-        }
-    },
+    "parent": "flxItem",
+    "pf": "tmpCoverList",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "24%"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
-        "value": "6%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -14,6 +14,7 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -21,45 +22,48 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "slFbox",
+    "_skin_": "s8ee3d528fb841b886ae225670bad8b3",
     "_top_": {
         "type": "string",
-        "value": "66%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "88%"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblIncomeTitle",
-        "lblIncomeCaption",
-        "lblIncomeAmount"
+        "flxItem"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
-    "id": "flxIncomeItem",
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flxCoverListController"
+        }
+    },
+    "disabledSkins": {
+        "blockedUISkin": "se10403881e545c88517e38d1704fe6e"
+    },
+    "enablescrolling": true,
+    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
+    "id": "flxCoverList",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "flxIncomeItem",
+    "kuid": "i5a1bb0996c94cab9d16c2055ea1d13d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSummaryCard",
-    "pf": "frmQuickQuotes",
-    "responsiveData": {
-        "b1": {
-            "isVisible": false
-        }
-    },
+    "parent": "tmpCoverList",
+    "pf": "tmpCoverList",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

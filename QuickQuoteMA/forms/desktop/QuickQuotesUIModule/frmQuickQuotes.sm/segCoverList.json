@@ -1,0 +1,275 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "27dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "109dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCoverList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ea9806415ae14dc490edce2e1ea59e44",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSummaryCard",
+    "pf": "frmQuickQuotes",
+    "responsiveData": {
+        "b1": {
+            "data": [
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                },
+                {
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "R 1 000 000"
+                    },
+                    "lblCaption": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Cover amount"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Life Cover"
+                    }
+                }
+            ],
+            "height": {
+                "type": "string",
+                "value": "260dp"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "rowTemplate": "e4e580157a1d4b2c887fffbb00d6f89a",
+            "sectionHeaderTemplate": null,
+            "top": {
+                "type": "string",
+                "value": "50dp"
+            },
+            "widgetDataMap": {
+                "flxCoverList": "flxCoverList",
+                "flxItem": "flxItem",
+                "lblAmount": "lblAmount",
+                "lblCaption": "lblCaption",
+                "lblTitle": "lblTitle"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": null,
+    "rowcounter": 9,
+    "rowfocusskin": "s5a57d7e0651485fbdc9a638c4f5be8b",
+    "rowskin": "s6a305ed9ca443da9337551694273acb",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sc3a269649c8414a8a16074c8472cb9e",
+    "sectionheadertemplate": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {},
+    "zindex": 1
+}
