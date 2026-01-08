@@ -15,6 +15,12 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        2,
+        1,
+        0,
+        0
+    ],
     "_skin_": "sgluFrmDashboardBg",
     "_title_": null,
     "addWidgetsdone": false,
@@ -53,6 +59,10 @@
             "channel": "desktop",
             "name": "frmDashboardController"
         }
+    },
+    "currentBreakpoint": {
+        "kuid": "b1",
+        "width": 1366
     },
     "currentLocale": "default",
     "desktopweb": {
@@ -119,6 +129,9 @@
     "titleBarSkin": "sd49ca5a05714858a2084687908de6b7",
     "titlebar": true,
     "type": 3,
+    "vizProps": {
+        "globalRespDesignEnabled": true
+    },
     "wType": "Form",
     "windows8": {
         "needAppMenu": false

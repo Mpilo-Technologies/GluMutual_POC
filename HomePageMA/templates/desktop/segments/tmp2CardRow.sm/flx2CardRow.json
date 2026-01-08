@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "44%"
+        "value": "180dp"
     },
     "_left_": {
         "type": "string",
-        "value": "52%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -14,6 +14,7 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -21,44 +22,50 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sgluFlxCard",
+    "_skin_": "sa13061de24545c9b2fb3382e71563d1",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "46%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblDisabilityTitle",
-        "lblDisabilityDesc",
-        "btnDisabilitySelect",
-        "imgDisability"
+        "flxCardLeft",
+        "flxCardRight"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
-    "id": "flxCardDisability",
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flx2CardRowController"
+        }
+    },
+    "disabledSkins": {
+        "blockedUISkin": "se10403881e545c88517e38d1704fe6e"
+    },
+    "enablescrolling": true,
+    "focusskin": "s055b30cc8544a4092521d1a3c930a38",
+    "id": "flx2CardRow",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "sgluFlxCardDisability",
+    "kuid": "i309797242e241a6a05c74f1f73c1397",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxCards",
-    "pf": "frmDashboard",
-    "responsiveData": {
-        "b3": {}
-    },
+    "parent": "tmp2CardRow",
+    "pf": "tmp2CardRow",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }
