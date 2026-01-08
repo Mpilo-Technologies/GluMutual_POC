@@ -4,7 +4,8 @@ define(['CoverRanges'], function (CoverRanges) {
         //Type your controller code here 
         postShow: function() {    
             var sliderConfig = CoverRanges.sliderConfig();
-            setupSegment.call(this, sliderConfig);
+            this.setupSegment(sliderConfig);
+            this.view.btnContinue.onClick = this.btnContinueonClick.bind(this);
         },
 
         setupSegment: function(sliderConfig) {
@@ -28,6 +29,16 @@ define(['CoverRanges'], function (CoverRanges) {
                 };
             });
             this.view.segCovers.setData(segData);
+        },
+
+        btnContinueonClick: function() {
+            var currForm = kony.application.getCurrentForm();
+            var segData = currForm.segCovers.data;
+            var navManager = applicationManager.getNavigationManager();
+            navManager.navigateTo({
+                "appName": "QuickQuoteMA",
+                "friendlyName": "QuickQuotesUIModule/frmQuickQuotes"
+            }, segData);
         }
     }
  });
