@@ -1,6 +1,10 @@
 define({ 
 
  //Type your controller code here 
+        onNavigate: function(segData){
+            this.segData = segData
+        },
+        
         postShow: function() {
             this.setSelectedQuote();
         },
