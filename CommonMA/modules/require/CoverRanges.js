@@ -31,11 +31,38 @@ define(function () {
                 currentValue: R2000,
                 step: 500
             }
-            ];R
+            ];
             return sliderConfig;
-        }
+        };
+
+    var _covers = function() {
+        var covers = [
+            {
+                title: "Life Cover",
+                image: "lifecover.png",
+                description: "Lump-sum payout to your beneficiaries.",
+            },
+            {   
+                title: "Disability Cover",
+                image: "disabilitycover.png",
+                description: "Income replacement if you become disabled.",
+            },
+            {
+                title: "Critical Illness Cover",
+                image: "criticalillness.png",
+                description: "Lump-sum payout for critical illnesses.",
+            },
+            {
+                title: "Income Protection",
+                image: "incomeprotection.png",
+                description: "Monthly income replacement when unable to work.",
+            },];
+                 return covers;
+        };
+
 
         return {
-            sliderConfig: _sliderConfig
+            sliderConfig: _sliderConfig,
+            covers: _covers
         }
 });
