@@ -36,7 +36,7 @@ define({
         imgLeft: { src: left.image },
         btnLeftSelect: { text: "Select" },
       };
-      if (right != null) {
+      if (right) {
         row.lblRightId = right.id;
         row.lblRightTitle = right.title;
         row.lblRightDesc = right.description;
