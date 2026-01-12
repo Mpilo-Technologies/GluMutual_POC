@@ -96,14 +96,18 @@ define({
     }
     if (foundIdCover === -1) {
       this.selected.push({ id: id, title: title });
-      row.btnLeftSelect = row.btnLeftSelect;
-      row.btnLeftSelect.skin = "sknBtnGhost";
-      row.btnLeftSelect.text = "Unselected";
+      row.btnLeftSelect = {
+        text: "Unselected",
+        onClick: this.selectCoverLeft.bind(this),
+        skin: "sknBtnGhost"
+      };
     } else {
       this.selected.splice(foundIdCover, 1);
-      row.btnLeftSelect = row.btnLeftSelect;
-      row.btnLeftSelect.skin = "sknBtnPrimary";
-      row.btnLeftSelect.text = "Select";
+      row.btnLeftSelect = {
+        text: "Select",
+        onClick: this.selectCoverLeft.bind(this),
+        skin: "sknBtnPrimary"
+      };
     }
 
     this.view.segCoverList.setDataAt(row, rowIndex);
@@ -125,14 +129,18 @@ define({
     }
     if (foundIdCover === -1) {
       this.selected.push({ id: id, title: title });
-      row.btnLeftSelect = row.btnLeftSelect;
-      row.btnRightSelect.skin = "sknBtnGhost";
-      row.btnRightSelect.text = "Unselected";
+      row.btnLeftSelect = {
+        text: "Unselected",
+        onClick: this.selectCoverLeft.bind(this),
+        skin: "sknBtnGhost"
+      };
     } else {
       this.selected.splice(foundIdCover, 1);
-      row.btnRightSelect = row.btnRightSelect;
-      row.btnRightSelect.skin = "sknBtnPrimary";
-      row.btnRightSelect.text = "Select";
+      row.btnRightSelect = {
+        text: "Select",
+        onClick: this.selectCoverRight.bind(this),
+        skin: "sknBtnPrimary"
+      }
     }
 
     this.view.segCoverList.setDataAt(row, rowIndex);
