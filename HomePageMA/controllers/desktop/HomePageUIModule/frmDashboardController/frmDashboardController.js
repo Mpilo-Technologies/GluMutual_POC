@@ -1,6 +1,8 @@
 define({
   // Type your controller code here
 
+  selected: [],
+
   onTestNavigation: function () {
     var homePageModule = kony.mvc.MDAApplication.getSharedInstance()
       .getModuleManager()
@@ -34,14 +36,20 @@ define({
         lblLeftTitle: left.title,
         lblLeftDesc: left.description,
         imgLeft: { src: left.image },
-        btnLeftSelect: { text: "Select" },
+        btnLeftSelect: {
+          text: "Select",
+          onClick: this.selectCoverLeft.bind(this),
+        },
       };
       if (right) {
         row.lblRightId = right.id;
         row.lblRightTitle = right.title;
         row.lblRightDesc = right.description;
         row.imgRight = { src: right.image };
-        row.btnRightSelect = { text: "Select" };
+        row.btnRightSelect = {
+          text: "Select",
+          onClick: this.selectCoverRight.bind(this),
+        };
         row.flxCardRight = { isVisible: true };
       } else {
         row.lblRightId = "";
@@ -66,9 +74,76 @@ define({
       lblRightDesc: "lblRightDesc",
       lblRightTitle: "lblRightTitle",
       lblLeftId: "lblLeftId",
-      lblRightId: "lblRightId"
+      lblRightId: "lblRightId",
     };
 
     this.view.segCoverList.setData(segData);
+  },
+
+  selectCoverLeft: function () {
+    var currForm = voltmx.application.getCurrentForm();
+    var rowIndex = currForm.segCoverList.selectedRowIndex[0];
+    var row = this.view.segCoverList.data[rowIndex];  
+    var id = row.lblLeftId;
+    var title = row.lblLeftTitle;
+    var foundIdCover = -1;
+
+    for (var i = 0; i < this.selected.length; i++) {
+      if (this.selected[i].id === id) {
+        foundIdCover = i;
+        break;
+      }
+    }
+    if (foundIdCover === -1) {
+      this.selected.push({ id: id, title: title });
+      row.btnLeftSelect = {
+        text: "Unselected",
+        onClick: this.selectCoverLeft.bind(this),
+        skin: "sknBtnGhost"
+      };
+    } else {
+      this.selected.splice(foundIdCover, 1);
+      row.btnLeftSelect = {
+        text: "Select",
+        onClick: this.selectCoverLeft.bind(this),
+        skin: "sknBtnPrimary"
+      };
+    }
+
+    this.view.segCoverList.setDataAt(row, rowIndex);
+  },
+
+  selectCoverRight: function () {
+   var currForm = voltmx.application.getCurrentForm();
+    var rowIndex = currForm.segCoverList.selectedRowIndex[0];
+    var row = this.view.segCoverList.data[rowIndex];
+    var id = row.lblRightId;
+    var title = row.lblRightTitle;
+    var foundIdCover = -1;
+
+    for (var i = 0; i < this.selected.length; i++) {
+      if (this.selected[i].id === id) {
+        foundIdCover = i;
+        break;
+      }
+    }
+    if (foundIdCover === -1) {
+      this.selected.push({ id: id, title: title });
+      row.btnLeftSelect = {
+        text: "Unselected",
+        onClick: this.selectCoverRight.bind(this),
+        skin: "sknBtnGhost"
+      };
+    } else {
+      this.selected.splice(foundIdCover, 1);
+      row.btnRightSelect = {
+        text: "Select",
+        onClick: this.selectCoverRight.bind(this),
+        skin: "sknBtnPrimary"
+      }
+    }
+
+    this.view.segCoverList.setDataAt(row, rowIndex);
+
   },
 });
