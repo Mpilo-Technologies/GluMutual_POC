@@ -131,7 +131,7 @@ define({
       this.selected.push({ id: id, title: title });
       row.btnLeftSelect = {
         text: "Unselected",
-        onClick: this.selectCoverLeft.bind(this),
+        onClick: this.selectCoverRight.bind(this),
         skin: "sknBtnGhost"
       };
     } else {
