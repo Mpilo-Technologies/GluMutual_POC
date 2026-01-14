@@ -26,7 +26,7 @@ define(["CoverRanges", "ApplicationManager"], function (coverRanges, application
           lblLeftId: left.id,
           lblLeftTitle: left.title,
           lblLeftDesc: left.description,
-          // imgLeft: { src: left.image },
+          imgLeft: { src: left.image },
           btnLeftSelect: {
             text: "Select",
             onClick: this.selectCoverLeft.bind(this),
@@ -36,7 +36,7 @@ define(["CoverRanges", "ApplicationManager"], function (coverRanges, application
           row.lblRightId = right.id;
           row.lblRightTitle = right.title;
           row.lblRightDesc = right.description;
-          // row.imgRight = { src: right.image };
+          row.imgRight = { src: right.image };
           row.btnRightSelect = {
             text: "Select",
             onClick: this.selectCoverRight.bind(this),
@@ -46,7 +46,7 @@ define(["CoverRanges", "ApplicationManager"], function (coverRanges, application
           row.lblRightId = "";
           row.lblRightTitle = "";
           row.lblRightDesc = "";
-          // row.imgRight = { src: "" };
+          row.imgRight = { src: "" };
           row.btnRightSelect = { text: "" };
           row.flxCardRight = { isVisible: false };
         }
@@ -58,8 +58,8 @@ define(["CoverRanges", "ApplicationManager"], function (coverRanges, application
         flx2CardRow: "flx2CardRow",
         flxCardLeft: "flxCardLeft",
         flxCardRight: "flxCardRight",
-        // imgLeft: "imgLeft",
-        // imgRight: "imgRight",
+        imgLeft: "imgLeft",
+        imgRight: "imgRight",
         lblLeftDesc: "lblLeftDesc",
         lblLeftTitle: "lblLeftTitle",
         lblRightDesc: "lblRightDesc",
