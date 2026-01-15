@@ -7,7 +7,7 @@ define(["CoverRanges", "ApplicationManager"], function (coverRanges, application
     onClickContinue: function () {
       var navManager = applicationManager.getApplicationManager().getNavigationManager();
       navManager.setCustomInfo("selectedCovers", this.selected);
-      navManager.navigateTo({"appName": "QuickQuoteMA", "friendlyName": "QuickQuoteUIModule/frmQuickQuotes"});
+      navManager.navigateTo({"appName": "QuickQuoteMA", "friendlyName": "frmProductCoverAmount"});
     },
 
     postShow: function () {
