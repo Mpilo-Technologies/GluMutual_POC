@@ -109,7 +109,7 @@ define(["ApplicationManager"], function (applicationManager) {
         gender: this.view.lstGender.selectedKeyValue[1],
         provience: this.view.lstProvince.selectedKeyValue[1],
         occupation: this.view.lstOccupation.selectedKeyValue[1],
-        icomerange: this.view.lstIncome.selectedKeyValue[1],
+        icomerange: this.view.lstIncome.selectedKey,
         levelofeducation: this.view.lstEducation.selectedKeyValue[1],
       };
       return basicInfo;
