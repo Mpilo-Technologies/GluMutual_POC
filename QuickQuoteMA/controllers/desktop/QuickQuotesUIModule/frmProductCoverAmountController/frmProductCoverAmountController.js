@@ -16,10 +16,11 @@ define(["CoverRanges", "ApplicationManager"], function (CoverRanges, application
 
       const segData = sliderConfig.map((item) => ({
         product: item.product,
-        displayAmount: item.min,
+        displayAmount: item.max,
         sliderData: {
           minValue: item.min,
           maxValue: item.max,
+          selectedValue: 100
         },
       }));
       this.view.segCovers.setData(segData);
