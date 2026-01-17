@@ -69,6 +69,7 @@
     "enabledforidletimeout": false,
     "friendlyName": "frmProductCoverAmount",
     "id": "frmProductCoverAmount",
+    "ide_postShow": "AS_Form_c9a45dc8578b472f8384400bb10c8d65",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

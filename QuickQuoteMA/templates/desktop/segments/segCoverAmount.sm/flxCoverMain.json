@@ -53,6 +53,7 @@
     "focusskin": "s055b30cc8544a4092521d1a3c930a38",
     "id": "flxCoverMain",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "bf6d1e1d353148ec9b3229788dbf7393",
