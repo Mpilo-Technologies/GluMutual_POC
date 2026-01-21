@@ -1,0 +1,33 @@
+{
+    "AS_TextField_f520a08dcc2d442187aa5be174e65036": {
+        "id": "AS_TextField_f520a08dcc2d442187aa5be174e65036",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segCoverAmount",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a5f73f74e6c0462aafa39c196c3279bd"
+        },
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": [{
+            "id": "ADD_SNIPPET_e92d867fb88346c591f66e19bcada033",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.editAmountOnTextChange();",
+            "parentId": null
+        }]
+    }
+}

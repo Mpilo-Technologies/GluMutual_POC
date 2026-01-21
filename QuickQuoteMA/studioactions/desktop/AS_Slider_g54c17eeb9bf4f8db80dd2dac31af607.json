@@ -1,0 +1,30 @@
+{
+    "AS_Slider_g54c17eeb9bf4f8db80dd2dac31af607": {
+        "id": "AS_Slider_g54c17eeb9bf4f8db80dd2dac31af607",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "selectedvalue"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segCoverAmount",
+            "type": "templates",
+            "platform": "",
+            "KUID": "a5f73f74e6c0462aafa39c196c3279bd"
+        },
+        "language": "js",
+        "eventType": "onSelection",
+        "actions": [{
+            "id": "ADD_SNIPPET_c3d066aa58f14ad88a82bdff96d8fe8f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.editAmountOnSlide();",
+            "parentId": null
+        }]
+    }
+}

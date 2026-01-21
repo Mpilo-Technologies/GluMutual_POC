@@ -1,28 +1,22 @@
-define({ 
-
- //Type your controller code here 
-     postShow: function() {  
-      this.view.flxRow.sldCover.onSlide = this.editAmountOnSlide.bind(this);
-      this.view.flxRow.txtAmount.onTextChange = this.editAmountOnTextChange.bind(this);    
-
-    },
-
-    editAmountOnSlide: function() {
+define([], function () {
+  return {
+    //Type your controller code here
+    editAmountOnSlide: function () {
       var currForm = voltmx.application.getCurrentForm();
-      var index = currForm.segCovers.selectedRowIndex[0];
-      var coverData = this.view.segCovers.data[index];
-      var selectedValue = this.view.flxRow.sldCover.selectedValue;
+      var index = currForm.segCovers.selectedRowIndex[1];
+      var coverData = currForm.segCovers.data[index];
+      var selectedValue = coverData.sliderData.maxValue * (this.view.flxRow.sldCover.selectedValue / 100);
       coverData.displayAmount = selectedValue;
-      this.view.segCovers.setDataAt(coverData, index);
+      currForm.segCovers.setDataAt(coverData, index);
     },
 
-    editAmountOnTextChange: function() {
+    editAmountOnTextChange: function () {
       var currForm = voltmx.application.getCurrentForm();
-      var index = currForm.segCovers.selectedRowIndex[0];
-      var coverData = this.view.segCovers.data[index];
+      var index = currForm.segCovers.selectedRowIndex[1];
+      var coverData = currForm.segCovers.data[index];
       var enteredValue = this.view.flxRow.txtAmount.text;
-      coverData.sliderData.selectedValue = enteredValue;
-      this.view.segCovers.setDataAt(coverData, index);
-    }
-
- });
+      coverData.sliderData.selectedValue = (enteredValue / coverData.sliderData.maxValue) * 100;
+      currForm.segCovers.setDataAt(coverData, index);
+    },
+  };
+});
