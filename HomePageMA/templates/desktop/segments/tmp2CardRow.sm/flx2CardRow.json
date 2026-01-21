@@ -36,7 +36,15 @@
     "canUpdateUI": true,
     "children": [
         "flxCardLeft",
-        "flxCardRight"
+        "flxCardRight",
+        "lblLeftTitle",
+        "lblLeftDesc",
+        "imgLeft",
+        "btnLeftSelect",
+        "lblRightTitle",
+        "lblRightDesc",
+        "btnRightSelect",
+        "imgRight"
     ],
     "clipbounds": false,
     "containerId": true,
@@ -54,6 +62,7 @@
     "focusskin": "s055b30cc8544a4092521d1a3c930a38",
     "id": "flx2CardRow",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "i309797242e241a6a05c74f1f73c1397",

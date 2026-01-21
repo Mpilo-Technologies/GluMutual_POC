@@ -5,6 +5,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "60%"
+    },
     "_margin_": [
         0,
         0,
@@ -25,14 +29,10 @@
     },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "30%"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 5,
@@ -46,7 +46,7 @@
     "isvisible": true,
     "kuid": "cc3c63cc20a0456397c2a56c8e41bc19",
     "name": "kony.ui.Label",
-    "parent": "flxCardRight",
+    "parent": "flx2CardRow",
     "pf": "tmp2CardRow",
     "textstyle": {},
     "tooltip": "",

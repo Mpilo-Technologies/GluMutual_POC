@@ -5,6 +5,10 @@
         "type": "string",
         "value": "20%"
     },
+    "_left_": {
+        "type": "string",
+        "value": "60%"
+    },
     "_margin_": [
         0,
         0,
@@ -21,13 +25,9 @@
     "_text_": "Select",
     "_width_": {
         "type": "string",
-        "value": "52%"
+        "value": "30%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "centery": {
         "type": "string",
         "value": "77%"
@@ -42,7 +42,7 @@
     "isvisible": true,
     "kuid": "d11ab7d1a3c4443f9fc21613f54011b1",
     "name": "kony.ui.Button",
-    "parent": "flxCardRight",
+    "parent": "flx2CardRow",
     "pf": "tmp2CardRow",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
