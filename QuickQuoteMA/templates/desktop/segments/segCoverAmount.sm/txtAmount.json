@@ -47,6 +47,7 @@
     },
     "focusskin": "sgluTxtInput",
     "id": "txtAmount",
+    "ide_onTouchEnd": "AS_TextField_f520a08dcc2d442187aa5be174e65036",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
