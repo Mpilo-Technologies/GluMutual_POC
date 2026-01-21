@@ -16,7 +16,12 @@ define(["CoverRanges", "ApplicationManager"], function (CoverRanges, application
       this.setupSegment(segData);
       this.view.btnContinue.onClick = this.btnContinueonClick.bind(this);
     },
-
+        setupSegment: function(sliderConfig) {
+            this.view.segCovers.widgetDataMap = {
+                lblTitle: "product",
+                sldCover: "sliderData",
+                txtAmount: "displayAmount"
+            };
       const segData = sliderConfig.map((item) => ({
         product: item.product,
         displayAmount: item.maxValue,
