@@ -4,6 +4,7 @@ define(function () {
         
         const sliderConfig = [
             {
+                id: "30100",
                 product: "Life Cover",
                 minValue: R100000,
                 maxValue: R25000000,
@@ -11,13 +12,15 @@ define(function () {
                 step: 50000
             },
             {     
+                id: "20200",
                 product: "Disability Cover",
                 minValue: R100000,
                 maxValue: R20000000,
                 currentValue: R100000,
                 step: 50000
             },
-            {   
+            { 
+                id: "30103", 
                 product: "Critical Illness Cover",
                 minValue: R100000,
                 maxValue: R6000000,
@@ -25,6 +28,7 @@ define(function () {
                 step: 10000
              },
              {
+                id: "30300",
                 product: "Income Protection",
                 minValue: R2000,
                 maxValue: R150000,
