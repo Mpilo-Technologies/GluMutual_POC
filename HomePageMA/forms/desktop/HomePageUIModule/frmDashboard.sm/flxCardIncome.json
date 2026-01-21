@@ -44,7 +44,7 @@
     "id": "flxCardIncome",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "sgluFlxCardIncome",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

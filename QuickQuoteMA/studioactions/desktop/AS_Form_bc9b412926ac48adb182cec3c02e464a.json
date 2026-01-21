@@ -1,23 +1,23 @@
 {
-    "AS_Button_e7d7b9eb0c8e4ed69d7e86546a2d228f": {
-        "id": "AS_Button_e7d7b9eb0c8e4ed69d7e86546a2d228f",
+    "AS_Form_bc9b412926ac48adb182cec3c02e464a": {
+        "id": "AS_Form_bc9b412926ac48adb182cec3c02e464a",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmDashboard",
+            "name": "frmBasicPersonalData",
             "type": "forms",
             "platform": "",
-            "KUID": "ed6a2aae81684ea3a58f39a9be641273"
+            "KUID": "fc26c05eb5074ab8a678264eed27b44f"
         },
         "language": "js",
-        "eventType": "onClick",
+        "eventType": "postShow",
         "actions": [{
-            "id": "ADD_SNIPPET_cf1adce7090e4bfab026ae4fcee2eb03",
+            "id": "ADD_SNIPPET_c1146c72a3724d9fab27ab3b0fc07bb1",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.onClickContinue();",
+            "codeSnippet": "this.postShow();",
             "parentId": null
         }]
     }
