@@ -80,7 +80,7 @@
     "noofsteps": 100,
     "osPlatform": "desktopweb",
     "osVersion": "iOS7",
-    "parent": "flxRow",
+    "parent": "flxCoverMain",
     "pf": "segCoverAmount",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

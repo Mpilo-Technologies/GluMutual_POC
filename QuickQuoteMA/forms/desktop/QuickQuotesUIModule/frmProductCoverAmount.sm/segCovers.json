@@ -5,73 +5,61 @@
         {
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Life Cover",
-                "type": "Label"
+                "text": "Life Cover"
             },
             "sldCover": {
                 "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
-                "selectedValue": 40,
-                "type": "Slider"
+                "selectedValue": 40
             },
             "txtAmount": {
                 "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
                 "placeholder": "",
-                "text": "R 1 000 000",
-                "type": "TextField"
+                "text": "R 1 000 000"
             }
         },
         {
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Disability Cover",
-                "type": "Label"
+                "text": "Life Cover"
             },
             "sldCover": {
                 "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
-                "selectedValue": 5,
-                "type": "Slider"
+                "selectedValue": 40
             },
             "txtAmount": {
                 "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
                 "placeholder": "",
-                "text": "R 1 500",
-                "type": "TextField"
+                "text": "R 1 000 000"
             }
         },
         {
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Income Protection",
-                "type": "Label"
+                "text": "Life Cover"
             },
             "sldCover": {
                 "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
-                "selectedValue": 80,
-                "type": "Slider"
+                "selectedValue": 40
             },
             "txtAmount": {
                 "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
                 "placeholder": "",
-                "text": "R 11 000 000",
-                "type": "TextField"
+                "text": "R 1 000 000"
             }
         },
         {
             "lblTitle": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Critical Illness Cover",
-                "type": "Label"
+                "text": "Life Cover"
             },
             "sldCover": {
                 "@class": "com.viz.ide.model.segment.SelectedValueSegmentData",
-                "selectedValue": 20,
-                "type": "Slider"
+                "selectedValue": 40
             },
             "txtAmount": {
                 "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
                 "placeholder": "",
-                "text": "R 500 000",
-                "type": "TextField"
+                "text": "R 1 000 000"
             }
         }
     ],
@@ -167,7 +155,6 @@
     "widgetalignment": 5,
     "widgetdatamap": {
         "flxCoverMain": "flxCoverMain",
-        "flxRow": "flxRow",
         "lblTitle": "lblTitle",
         "sldCover": "sldCover",
         "txtAmount": "txtAmount"

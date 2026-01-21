@@ -62,7 +62,7 @@
     "nativewin": {
         "render": false
     },
-    "parent": "flxRow",
+    "parent": "flxCoverMain",
     "pf": "segCoverAmount",
     "placeholderskin": "sgluTxtInput",
     "retaincontentalignment": false,

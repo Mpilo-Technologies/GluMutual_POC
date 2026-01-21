@@ -7,13 +7,13 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
-        0,
-        0,
-        0,
-        0
+        1,
+        1,
+        1,
+        1
     ],
     "_padding_": [
         0,
@@ -25,30 +25,43 @@
     "_text_": "Life Cover",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "40%"
     },
     "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
     "canUpdateUI": true,
     "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblTitle",
+    "id": "lblTitl",
     "info": null,
     "ipad": {
         "psp": {
             "wrapping": 2
         }
     },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f4d5c1922db244cca2476a0c833ce326",
+    "kuid": "g681c789afd34a36b13c719aeb2c840d",
     "name": "kony.ui.Label",
-    "parent": "flxCoverMain",
-    "pf": "segCoverAmount",
-    "textstyle": {},
+    "parent": "flxCoverAmount",
+    "pf": "tmpCoverAmount",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
     "tooltip": "",
     "wType": "Label",
     "zindex": 1
