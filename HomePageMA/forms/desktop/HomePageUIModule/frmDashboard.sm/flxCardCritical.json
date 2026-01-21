@@ -44,7 +44,7 @@
     "id": "flxCardCritical",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "sgluFlxCardCritical",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

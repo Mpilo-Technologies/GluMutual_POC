@@ -1,6 +1,6 @@
 {
-    "AS_Button_e7d7b9eb0c8e4ed69d7e86546a2d228f": {
-        "id": "AS_Button_e7d7b9eb0c8e4ed69d7e86546a2d228f",
+    "AS_Form_g4446358ae9e493d9b67ba3daa958bd7": {
+        "id": "AS_Form_g4446358ae9e493d9b67ba3daa958bd7",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -13,11 +13,11 @@
             "KUID": "ed6a2aae81684ea3a58f39a9be641273"
         },
         "language": "js",
-        "eventType": "onClick",
+        "eventType": "postShow",
         "actions": [{
-            "id": "ADD_SNIPPET_cf1adce7090e4bfab026ae4fcee2eb03",
+            "id": "ADD_SNIPPET_b18320ce914c40dd807146c8b5635c0d",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.onClickContinue();",
+            "codeSnippet": "this.postShow();",
             "parentId": null
         }]
     }

@@ -44,7 +44,7 @@
     "id": "flxCardDisability",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "sgluFlxCardDisability",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
