@@ -9,13 +9,7 @@ define(["CoverRanges", "ApplicationManager"], function (
 
     onClickContinue: function () {
       if (this.selected.length === 0) {
-        applicationManager
-          .getApplicationManager()
-          .getPresentationUtility()
-          .showToastMessageError(
-            this,
-            "Please select at least one cover to proceed.",
-          );
+        alert("Please select at least one cover to proceed.");
         return;
       } else {
         var navManager = applicationManager
