@@ -5,11 +5,22 @@ define(["ApplicationManager"], function (applicationManager) {
       var navManager = applicationManager
         .getApplicationManager()
         .getNavigationManager();
-      this.segData = navManager.getCustomInfo("coverAmounts");
+      this.segData = navManager.getCustomInfo("selectedCovers");
     },
 
     postShow: function () {
       this.setSelectedQuote();
+      this.view.btnCallback.onClick = this.navigation.bind(this,
+        "QuickQuoteMA",
+        "frmRequestCallback"
+      );
+      this.view.btnModify.onClick = this.navigation.bind(this,
+        "QuickQuoteMA",
+        "frmProductCoverAmount"
+      );
+      this.view.btnBack.onClick = this.navigation.bind(this,
+        "HomePageMA",
+        "frmDashboard");
     },
 
     setSelectedQuote: function () {
@@ -19,6 +30,16 @@ define(["ApplicationManager"], function (applicationManager) {
       };
 
       this.view.segCoverList.setData(this.segData);
+    },
+
+    navigation: function (appName, friendlyName) {
+      var navManager = applicationManager
+        .getApplicationManager()
+        .getNavigationManager();
+      navManager.navigateTo({
+        appName: appName,
+        friendlyName: friendlyName,
+      });
     },
   };
 });

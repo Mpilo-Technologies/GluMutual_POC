@@ -1,17 +1,37 @@
-define(["CoverRanges", "ApplicationManager"], function (coverRanges, applicationManager) {
+define(["CoverRanges", "ApplicationManager"], function (
+  coverRanges,
+  applicationManager,
+) {
   return {
     // Type your controller code here
 
     selected: [],
 
     onClickContinue: function () {
-      var navManager = applicationManager.getApplicationManager().getNavigationManager();
-      navManager.setCustomInfo("selectedCovers", this.selected);
-      navManager.navigateTo({"appName": "QuickQuoteMA", "friendlyName": "frmProductCoverAmount"});
+      if (this.selected.length === 0) {
+        applicationManager
+          .getApplicationManager()
+          .getPresentationUtility()
+          .showToastMessageError(
+            this,
+            "Please select at least one cover to proceed.",
+          );
+        return;
+      } else {
+        var navManager = applicationManager
+          .getApplicationManager()
+          .getNavigationManager();
+        navManager.setCustomInfo("selectedCovers", this.selected);
+        navManager.navigateTo({
+          appName: "QuickQuoteMA",
+          friendlyName: "frmProductCoverAmount",
+        });
+      }
     },
 
     postShow: function () {
       var covers = [];
+      this.selected = [];
       covers = coverRanges.covers();
       this.setProducts(covers);
     },
