@@ -32,6 +32,10 @@
         "value": "18%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
@@ -41,14 +45,25 @@
     "isvisible": true,
     "kuid": "btnQuickQuotesBack",
     "name": "kony.ui.Button",
+    "paddinginpixel": false,
     "parent": "flxActions",
     "pf": "frmQuickQuotes",
     "responsiveData": {
         "b1": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
             "left": {
                 "type": "string",
-                "value": "0.00%"
+                "value": "5%"
             },
+            "padding": [
+                0,
+                0,
+                0,
+                0
+            ],
             "top": {
                 "type": "string",
                 "value": "24.14%"

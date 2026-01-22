@@ -32,6 +32,10 @@
         "value": "18%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
@@ -45,13 +49,19 @@
     "pf": "frmQuickQuotes",
     "responsiveData": {
         "b1": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "displayText": true,
             "height": {
                 "type": "string",
                 "value": "59.57%"
             },
+            "isVisible": false,
             "left": {
                 "type": "string",
-                "value": "55.43%"
+                "value": "5%"
             },
             "top": {
                 "type": "string",
