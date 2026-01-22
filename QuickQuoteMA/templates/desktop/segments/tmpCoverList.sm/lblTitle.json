@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "sgluLblRowHeading",
+    "_skin_": "sgluLblDescription",
     "_text_": "Life Cover",
     "_top_": {
         "type": "string",
@@ -44,9 +44,9 @@
         }
     },
     "isvisible": true,
-    "kuid": "ee3c3379b18844ab8947bd591c6e195f",
+    "kuid": "a4f4e6d48187404fa3155dac02942010",
     "name": "kony.ui.Label",
-    "parent": "flxItem",
+    "parent": "flxCoverList",
     "pf": "tmpCoverList",
     "textstyle": {},
     "tooltip": "",
