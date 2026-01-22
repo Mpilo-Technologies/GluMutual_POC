@@ -8,7 +8,7 @@ define(function () {
                 product: "Life Cover",
                 minValue: 100000,
                 maxValue: 25000000,
-                currentValue: 100000,
+                currentValue: 0,
                 step: 50000
             },
             {     
@@ -16,7 +16,7 @@ define(function () {
                 product: "Disability Cover",
                 minValue: 100000,
                 maxValue: 20000000,
-                currentValue: 100000,
+                currentValue: 0,
                 step: 50000
             },
             { 
@@ -24,7 +24,7 @@ define(function () {
                 product: "Critical Illness Cover",
                 minValue: 100000,
                 maxValue: 6000000,
-                currentValue: 100000,
+                currentValue: 0,
                 step: 10000
              },
              {
@@ -32,7 +32,7 @@ define(function () {
                 product: "Income Protection",
                 minValue: 2000,
                 maxValue: 150000,
-                currentValue: 2000,
+                currentValue: 0,
                 step: 500
             }
             ];

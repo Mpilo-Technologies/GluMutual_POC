@@ -54,6 +54,11 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxContent",
     "pf": "frmQuickQuotes",
+    "responsiveData": {
+        "b1": {
+            "layoutType": 3
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
