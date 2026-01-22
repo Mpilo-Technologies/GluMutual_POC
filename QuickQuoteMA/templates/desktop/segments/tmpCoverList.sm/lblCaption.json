@@ -46,7 +46,7 @@
     "isvisible": true,
     "kuid": "a4f4e6d48187404fa3155dac02942010",
     "name": "kony.ui.Label",
-    "parent": "flxItem",
+    "parent": "flxCoverList",
     "pf": "tmpCoverList",
     "textstyle": {},
     "tooltip": "",

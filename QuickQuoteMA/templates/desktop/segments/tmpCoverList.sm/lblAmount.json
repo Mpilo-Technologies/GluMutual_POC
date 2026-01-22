@@ -21,7 +21,7 @@
         "type": "string",
         "value": "0%"
     },
-    "_skin_": "sgluLblRowHeading",
+    "_skin_": "sgluLblDescription",
     "_text_": "R 1 000 000",
     "_top_": {
         "type": "string",
@@ -44,9 +44,9 @@
         }
     },
     "isvisible": true,
-    "kuid": "j67ba7e0917a429896aa54b846b915a4",
+    "kuid": "a4f4e6d48187404fa3155dac02942010",
     "name": "kony.ui.Label",
-    "parent": "flxItem",
+    "parent": "flxCoverList",
     "pf": "tmpCoverList",
     "textstyle": {},
     "tooltip": "",

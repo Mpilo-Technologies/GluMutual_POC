@@ -34,7 +34,9 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "flxItem"
+        "lblTitle",
+        "lblAmount",
+        "lblCaption"
     ],
     "clipbounds": false,
     "containerId": true,

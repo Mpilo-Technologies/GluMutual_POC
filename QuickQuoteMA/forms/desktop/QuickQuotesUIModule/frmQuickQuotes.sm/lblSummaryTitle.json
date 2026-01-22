@@ -47,6 +47,11 @@
     "name": "kony.ui.Label",
     "parent": "flxSummaryCard",
     "pf": "frmQuickQuotes",
+    "responsiveData": {
+        "b1": {
+            "skin": "sgluLblDescription"
+        }
+    },
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

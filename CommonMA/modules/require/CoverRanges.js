@@ -39,7 +39,7 @@ define(function () {
             return sliderConfig;
         };
 
-    covers: function () {
+    var covers = function () {
       var covers = [
         {
           id: "30100",
@@ -67,6 +67,9 @@ define(function () {
         },
       ];
       return covers;
-    },
+    };
+    return {
+        sliderConfig: _sliderConfig,
+        covers: covers
   };
 });
