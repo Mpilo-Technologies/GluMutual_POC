@@ -4,15 +4,16 @@ define(["CoverRanges", "ApplicationManager"], function (CoverRanges, application
     postShow: function () {
       var sliderConfig = CoverRanges.sliderConfig();
       var navManager = applicationManager.getApplicationManager().getNavigationManager();
-      var customInfo = navManager.getCustomInfo("selectedCovers");
+      var selectedCovers = navManager.getCustomInfo("selectedCovers");
       var segData = [];
-
-      for(var i=0; i<customInfo.length; i++){
-        if(sliderConfig[i].id === customInfo[i].id){
-            segData.push(sliderConfig[i]);
+      
+      selectedCovers.forEach(selectedCover => {
+        const match = sliderConfig.find(coverId => coverId.id === selectedCover.id)
+        
+        if(match){
+          segData.push(match)
         }
-      }
-
+      });
       this.setupSegment(segData);
       this.view.btnContinue.onClick = this.btnContinueonClick.bind(this);
     },
