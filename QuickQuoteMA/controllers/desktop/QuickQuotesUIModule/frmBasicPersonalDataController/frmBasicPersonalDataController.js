@@ -1,4 +1,5 @@
-define(["ApplicationManager"], function (applicationManager) {
+define(["ApplicationManager", 
+        "CoverRanges"], function (applicationManager, CoverRanges) {
   //Type your controller code here
   var isValid = false;
 
@@ -31,6 +32,20 @@ define(["ApplicationManager"], function (applicationManager) {
       this.view.lstOccupation.onSelection = this.isValidData.bind(this);
       this.view.lstIncome.onSelection = this.isValidData.bind(this);
       this.view.lstEducation.onSelection = this.isValidData.bind(this);
+      this.populateSegData();
+      this.view.txtOccupation.onKeyUp = this.filterOccupationData;
+      this.view.segOccupation.onRowClick = this.occupationRowClicked;
+    },
+    
+    populateSegData: function(){
+      this.view.segOccupation.widgetDataMap = {
+        "lblTitle": "occ_name",
+        "lblCode": "occupation_code"
+      };
+      
+      this.occupationData = CoverRanges.occupations();
+      
+      this.view.segOccupation.setData(this.occupationData);
     },
 
     isValidData: function () {
@@ -113,6 +128,65 @@ define(["ApplicationManager"], function (applicationManager) {
         levelofeducation: this.view.lstEducation.selectedKeyValue[1],
       };
       return basicInfo;
+    },
+    orderData: function(data, codeKey, input) {
+      if(data.length == 0) return data;
+      var resultData = [];
+      var ignoreIndex = [];
+      for (var i=0; i<data.length; i++) {
+        if (data[i][codeKey].toLowerCase() === input.toLowerCase()) {
+          resultData.push(data[i]);
+          ignoreIndex.push(true);
+        } else {
+          ignoreIndex.push(false);
+        }
+      }
+
+      for (var i=0; i<ignoreIndex.length; i++) {
+        if(!ignoreIndex[i]) {
+          resultData.push(data[i]);
+        }
+      }
+      return resultData;
+    },
+    filterOccupationData: function () {
+      var input = this.view.txtOccupation.text.toLowerCase();
+      if (input.length < 1) {
+        this.view.flxDropDownOccupation.setVisibility(false);
+        this.view.segOccupation.setData([]);
+        return;
+      }
+      this.view.flxDropDownOccupation.setVisibility(true);
+      var reg = new RegExp(input);
+      var data = this.occupationData.filter(function (occupation) {
+        return occupation.occ_name.toLowerCase().startsWith(input);
+      });
+      data = this.orderData(data, "occ_name", input);
+      this.view.segOccupation.setData(data);
+      if (data.length > 0) {
+        if (data.length === 1) {
+          this.view.flxDropDownOccupation.height = "40dp";
+        } else if (data.length === 2) {
+          this.view.flxDropDownOccupation.height = "80dp";
+        } else if (data.length === 3) {
+          this.view.flxDropDownOccupation.height = "120dp";
+        } else if (data.length === 4) {
+          this.view.flxDropDownOccupation.height = "160dp";
+        } else {
+          this.view.flxDropDownOccupation.height = "220dp";
+        }
+        //errorComp.hideError();
+        this.view.segOccupation.setVisibility(true);
+      } else {
+        this.view.flxDropDownOccupation.height = "220dp";
+        this.view.flxDropDownOccupation.setVisibility(false);
+      }
+      this.view.forceLayout();
+    },
+    occupationRowClicked: function () {
+      var selRow = this.view.segOccupation.selectedRowItems[0];
+      this.view.txtOccupation.text = selRow.occ_name;
+      this.view.flxDropDownOccupation.setVisibility(false);
     },
   };
 });
