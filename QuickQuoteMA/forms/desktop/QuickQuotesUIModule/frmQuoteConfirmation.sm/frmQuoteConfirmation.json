@@ -63,6 +63,7 @@
     "enabledforidletimeout": false,
     "friendlyName": "frmQuoteConfirmation",
     "id": "frmQuoteConfirmation",
+    "ide_postShow": "AS_Form_dc6f5ab3a62c4ab4bb06b6f0ec2e6fee",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
