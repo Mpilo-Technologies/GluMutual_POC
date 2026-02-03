@@ -29,18 +29,18 @@ define(["ApplicationManager",
       this.view.txtDob.onTextChange = this.isValidData.bind(this);
       this.view.lstGender.onSelection = this.isValidData.bind(this);
       this.view.lstProvince.onSelection = this.isValidData.bind(this);
-      this.view.lstOccupation.onSelection = this.isValidData.bind(this);
+      this.view.txtOccupation.onTextChange = this.isValidData.bind(this);
       this.view.lstIncome.onSelection = this.isValidData.bind(this);
       this.view.lstEducation.onSelection = this.isValidData.bind(this);
       this.populateSegData();
       this.view.txtOccupation.onKeyUp = this.filterOccupationData;
       this.view.segOccupation.onRowClick = this.occupationRowClicked;
     },
-    
-    populateSegData: function(){
+
+    populateSegData: function () {
       this.view.segOccupation.widgetDataMap = {
-        "lblTitle": "occ_name",
-        "lblCode": "occupation_code"
+        lblTitle: "occ_name",
+        lblCode: "occupation_code",
       };
       
       this.occupationData = CoverRanges.occupations();
@@ -60,7 +60,7 @@ define(["ApplicationManager",
           this.view.lstProvince.selectedKeyValue[1]
         ) ||
         !this.isEmptyNullUndefinedSelect(
-          this.view.lstOccupation.selectedKeyValue[1]
+          this.view.txtOccupation.text
         ) ||
         !this.isEmptyNullUndefinedSelect(
           this.view.lstIncome.selectedKeyValue[1]
@@ -123,7 +123,7 @@ define(["ApplicationManager",
         smokerStatus: this.view.flxSmokerYes.isVisible ? "Yes" : "No",
         gender: this.view.lstGender.selectedKeyValue[1],
         provience: this.view.lstProvince.selectedKeyValue[1],
-        occupation: this.view.lstOccupation.selectedKeyValue[1],
+        occupation: this.view.segOccupation.data[1].occupation_code,
         icomerange: this.view.lstIncome.selectedKey,
         levelofeducation: this.view.lstEducation.selectedKeyValue[1],
       };

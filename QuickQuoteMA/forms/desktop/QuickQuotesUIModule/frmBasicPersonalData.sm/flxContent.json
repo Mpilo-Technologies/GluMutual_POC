@@ -41,7 +41,8 @@
         "lblTitle",
         "lblSubtitle",
         "flxFormCard",
-        "flxActions"
+        "flxActions",
+        "flxDropDownOccupation"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -50,6 +50,8 @@ define(["CoverRanges", "ApplicationManager"], function (
         .getApplicationManager()
         .getNavigationManager();
       navManager.setCustomInfo("selectedCovers", segData);
+      var QuickQuotesModulepresentationController = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("QuickQuotesModule").presentationController;
+      QuickQuotesModulepresentationController.getAccessToken();
       navManager.navigateTo({
         appName: "QuickQuoteMA",
         friendlyName: "frmQuickQuotes",
