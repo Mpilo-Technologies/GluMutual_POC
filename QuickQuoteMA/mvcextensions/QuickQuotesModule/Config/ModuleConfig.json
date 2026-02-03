@@ -1,0 +1,11 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "QuickQuotesModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {},
+    "ModuleType": "UIModule",
+    "ModuleName": "QuickQuotesModule"
+}
